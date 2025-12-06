@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="VIPM Power Requests.lvlib" Type="Library" URL="../libraries/VIPM Power Requests.lvlib"/>
+		<Item Name="Request Power.lvlib" Type="Library" URL="../libraries/Request Power.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
