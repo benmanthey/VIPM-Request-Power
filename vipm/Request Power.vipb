@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-07 08:48:22" Creator="Ben" Comments="" ID="e15b2b7140db96164bd7b6450658d330">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-07 13:45:27" Creator="Ben" Comments="" ID="0f6eba79f28624223339dbfb38cbda62">
   <Library_General_Settings>
     <Package_File_Name>BJM_lib_Request_Power</Package_File_Name>
-    <Library_Version>1.0.0.14</Library_Version>
+    <Library_Version>1.0.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -27,11 +27,24 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Request Power.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary/>
-      <Description/>
+      <One_Line_Description_Summary>Keep your display on and prevent your computer from sleeping.</One_Line_Description_Summary>
+      <Description>&lt;b&gt;Keep your display on and prevent your computer from sleeping&lt;/b&gt;
+
+Power Requests are Windows official way of preventing your computer from sleeping and to keep the dispaly on.
+This is why your display doesn't turn off when you're watching a movie.
+It is not a mouse wiggler and doesn't require elevated priviledges.
+Once you stop Requesting Power your computer will go back to however you have the sleep and display settings configured.
+
+Common LabVIEW tasks that DO NOT prevent the computer from sleeping:
+DAQ
+Writing to a file
+Serial Port access
+
+You can moniror Windows Power Requests from an command prompt with admin priviledges.
+Use the command "powercfg -requests"</Description>
       <Copyright>Copyright (c) 2017, Ben Manthey</Copyright>
       <Packager>Ben Manthey</Packager>
-      <URL/>
+      <URL>https://github.com/benmanthey/VIPM-Request-Power</URL>
       <Release_Notes/>
     </Description>
     <Destinations>
@@ -228,7 +241,7 @@
         <Path>..\source\libraries\Clear Power Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B21177EEA1C88D7EA1B4A228DB3FDBC0</GUID>
+      <GUID>D8E50362CBB1D4FB26E7AF17BEFA7AA6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
