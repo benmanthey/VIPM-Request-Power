@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="example" Type="Folder">
+			<Item Name="VIPM Request Power Example.vi" Type="VI" URL="../../example/VIPM Request Power Example.vi"/>
+		</Item>
 		<Item Name="Request Power.lvlib" Type="Library" URL="../libraries/Request Power.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">

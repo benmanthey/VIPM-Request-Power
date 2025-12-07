@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-06 21:14:53" Creator="Ben" Comments="" ID="894a56a3aa3124516897a5e7aa274c93">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-07 08:48:22" Creator="Ben" Comments="" ID="e15b2b7140db96164bd7b6450658d330">
   <Library_General_Settings>
     <Package_File_Name>BJM_lib_Request_Power</Package_File_Name>
-    <Library_Version>1.0.0.12</Library_Version>
+    <Library_Version>1.0.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -29,8 +29,8 @@
     <Description>
       <One_Line_Description_Summary/>
       <Description/>
-      <Copyright/>
-      <Packager>BJM</Packager>
+      <Copyright>Copyright (c) 2017, Ben Manthey</Copyright>
+      <Packager>Ben Manthey</Packager>
       <URL/>
       <Release_Notes/>
     </Description>
@@ -228,7 +228,7 @@
         <Path>..\source\libraries\Clear Power Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8225518444A21D33806430A3DE8AA00C</GUID>
+      <GUID>B21177EEA1C88D7EA1B4A228DB3FDBC0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
