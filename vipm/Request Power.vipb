@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-07 13:45:27" Creator="Ben" Comments="" ID="0f6eba79f28624223339dbfb38cbda62">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-07 14:18:26" Creator="Ben" Comments="" ID="e8dd6c78ab01200cc3f0120b8c5378be">
   <Library_General_Settings>
     <Package_File_Name>BJM_lib_Request_Power</Package_File_Name>
-    <Library_Version>1.0.0.15</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -32,16 +32,23 @@
 
 Power Requests are Windows official way of preventing your computer from sleeping and to keep the dispaly on.
 This is why your display doesn't turn off when you're watching a movie.
-It is not a mouse wiggler and doesn't require elevated priviledges.
-Once you stop Requesting Power your computer will go back to however you have the sleep and display settings configured.
+It is not a mouse wiggler and doesn't require elevated privileges.
+Once you stop Requesting Power your computer will go back to however the sleep and display settings are configured.
 
-Common LabVIEW tasks that DO NOT prevent the computer from sleeping:
+Common LabVIEW tasks that &lt;b&gt;DO NOT&lt;/b&gt; prevent the computer from sleeping:
 DAQ
 Writing to a file
 Serial Port access
 
-You can moniror Windows Power Requests from an command prompt with admin priviledges.
-Use the command "powercfg -requests"</Description>
+You can monitor Windows Power Requests from a command prompt with admin privileges.
+Use the command "powercfg -requests"
+
+This is a mild cleanup and repackaging for VIPM of:
+https://github.com/benmanthey/Power-Requests
+Use it if you want more control over Power Requests.
+
+Power Requests as a DQMH module are also available:
+https://github.com/benmanthey/DQMH-Power-Requests</Description>
       <Copyright>Copyright (c) 2017, Ben Manthey</Copyright>
       <Packager>Ben Manthey</Packager>
       <URL>https://github.com/benmanthey/VIPM-Request-Power</URL>
@@ -241,7 +248,7 @@ Use the command "powercfg -requests"</Description>
         <Path>..\source\libraries\Clear Power Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8E50362CBB1D4FB26E7AF17BEFA7AA6</GUID>
+      <GUID>A05E76F5124CC2AAC98977D6E0EF63DF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
