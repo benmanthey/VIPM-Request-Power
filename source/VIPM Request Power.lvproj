@@ -15,6 +15,12 @@
 		<Item Name="example" Type="Folder">
 			<Item Name="VIPM Request Power Example.vi" Type="VI" URL="../../example/VIPM Request Power Example.vi"/>
 		</Item>
+		<Item Name="license" Type="Folder">
+			<Item Name="license.txt" Type="Document" URL="../../license/license.txt"/>
+		</Item>
+		<Item Name="vipm" Type="Folder">
+			<Item Name="Request Power.vipb" Type="Document" URL="../../vipm/Request Power.vipb"/>
+		</Item>
 		<Item Name="Request Power.lvlib" Type="Library" URL="../libraries/Request Power.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
