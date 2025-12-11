@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-07 20:46:03" Creator="Ben" Comments="" ID="5f2305fd4cb22fa4960078aa8153c2c6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2025-12-10 17:53:29" Creator="Ben" Comments="" ID="4369d183ea36d96ca3f769bf3bfbaa02">
   <Library_General_Settings>
     <Package_File_Name>BJM_lib_Request_Power</Package_File_Name>
     <Library_Version>1.0.0.3</Library_Version>
@@ -30,7 +30,7 @@
       <One_Line_Description_Summary>Keep your display on and prevent your computer from sleeping.</One_Line_Description_Summary>
       <Description>&lt;b&gt;Keep your display on and prevent your computer from sleeping&lt;/b&gt;
 
-Power Requests are Windows official way of preventing your computer from sleeping and to keep the dispaly on.
+Power Requests are Windows official way of preventing your computer from sleeping and to keep the display on.
 This is why your display doesn't turn off when you're watching a movie.
 It is not a mouse wiggler and doesn't require elevated privileges.
 Once you stop Requesting Power your computer will go back to however the sleep and display settings are configured.
@@ -248,7 +248,7 @@ https://github.com/benmanthey/DQMH-Power-Requests</Description>
         <Path>..\source\libraries\Clear Power Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF0FF2553A5C6F3B12461C69275CF4E2</GUID>
+      <GUID>9EA95B0E754EC756BC846035F9D8A29B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
