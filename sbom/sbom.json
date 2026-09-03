@@ -4,16 +4,17 @@
   "components": [],
   "dependencies": [
     {
-      "ref": "pkg:vipm/VIPM-Request-Power"
+      "ref": "pkg:vipm/Request-Power@1.0.0.3"
     }
   ],
   "metadata": {
     "component": {
-      "bom-ref": "pkg:vipm/VIPM-Request-Power",
-      "name": "VIPM Request Power",
-      "type": "application"
+      "bom-ref": "pkg:vipm/Request-Power@1.0.0.3",
+      "name": "Request Power",
+      "type": "application",
+      "version": "1.0.0.3"
     },
-    "timestamp": "2026-09-03T02:37:05.483Z",
+    "timestamp": "2026-09-03T22:46:47.208Z",
     "tools": {
       "components": [
         {
@@ -38,7 +39,7 @@
       ]
     }
   },
-  "serialNumber": "urn:uuid:48ea5296-474c-4100-b7fd-665880512058",
+  "serialNumber": "urn:uuid:e5c22b7e-8221-4b45-a44b-8c93b65cbcf0",
   "specVersion": "1.5",
   "version": 1
 }
