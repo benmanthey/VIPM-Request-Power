@@ -1,0 +1,44 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:vipm/VIPM-Request-Power"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "pkg:vipm/VIPM-Request-Power",
+      "name": "VIPM Request Power",
+      "type": "application"
+    },
+    "timestamp": "2026-09-03T02:37:05.483Z",
+    "tools": {
+      "components": [
+        {
+          "name": "vipm-cli",
+          "publisher": "JKI",
+          "type": "application",
+          "version": "26.3.1"
+        },
+        {
+          "description": "LabVIEW 2024 Q3 (32-bit)",
+          "name": "LabVIEW",
+          "properties": [
+            {
+              "name": "vipm:labview:bitness",
+              "value": "32"
+            }
+          ],
+          "publisher": "National Instruments",
+          "type": "application",
+          "version": "24.3.2"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:48ea5296-474c-4100-b7fd-665880512058",
+  "specVersion": "1.5",
+  "version": 1
+}
