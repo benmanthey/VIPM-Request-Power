@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2026-09-04 16:19:42" Creator="Ben" Comments="" ID="2b1945f1dd8d85b925640721b703710b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2026-09-04 16:25:09" Creator="Ben" Comments="" ID="ca8092ea035984e266c264f408f98a9d">
   <Library_General_Settings>
     <Package_File_Name>BJM_lib_Request_Power</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -54,7 +54,7 @@ https://github.com/benmanthey/DQMH-Power-Requests</Description>
       <Copyright>Copyright (c) 2017, Ben Manthey</Copyright>
       <Packager>Ben Manthey</Packager>
       <URL>https://github.com/benmanthey/VIPM-Request-Power</URL>
-      <Release_Notes/>
+      <Release_Notes>SBOM now available in source code.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -250,7 +250,7 @@ https://github.com/benmanthey/DQMH-Power-Requests</Description>
         <Path>..\source\libraries\Clear Power Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3706A0DD9D40727F038F7114CCDA0F95</GUID>
+      <GUID>32BAA83B715BEDED2F8A96C4B27AF957</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
