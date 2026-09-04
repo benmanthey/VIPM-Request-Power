@@ -18,11 +18,18 @@
 		<Item Name="license" Type="Folder">
 			<Item Name="license.txt" Type="Document" URL="../../license/license.txt"/>
 		</Item>
+		<Item Name="sbom" Type="Folder">
+			<Item Name="make sbom.bat" Type="Document" URL="../../sbom/make sbom.bat"/>
+			<Item Name="Pre-Build Custom Action.vi" Type="VI" URL="../Pre-Build Custom Action.vi"/>
+		</Item>
 		<Item Name="vipm" Type="Folder">
 			<Item Name="Request Power.vipb" Type="Document" URL="../../vipm/Request Power.vipb"/>
 		</Item>
 		<Item Name="Request Power.lvlib" Type="Library" URL="../libraries/Request Power.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
