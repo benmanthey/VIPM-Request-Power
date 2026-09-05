@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2026-09-04 16:25:09" Creator="Ben" Comments="" ID="ca8092ea035984e266c264f408f98a9d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-06 09:00:22" Modified_Date="2026-09-04 20:45:37" Creator="Ben" Comments="" ID="41d72b4d243707149bc87bade67c5d2b">
   <Library_General_Settings>
     <Package_File_Name>BJM_lib_Request_Power</Package_File_Name>
     <Library_Version>1.0.0.4</Library_Version>
@@ -20,7 +20,7 @@
   <Advanced_Settings>
     <Package_Dependencies/>
     <Custom_Action_VIs>
-      <Pre-Build_VI>..\source\Pre-Build Custom Action.vi</Pre-Build_VI>
+      <Pre-Build_VI>Pre-Build Custom Action.vi</Pre-Build_VI>
       <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
@@ -250,7 +250,7 @@ https://github.com/benmanthey/DQMH-Power-Requests</Description>
         <Path>..\source\libraries\Clear Power Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32BAA83B715BEDED2F8A96C4B27AF957</GUID>
+      <GUID>B7003AC062B37511CE1E3C8AABC0EA01</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

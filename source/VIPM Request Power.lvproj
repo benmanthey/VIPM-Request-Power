@@ -19,10 +19,11 @@
 			<Item Name="license.txt" Type="Document" URL="../../license/license.txt"/>
 		</Item>
 		<Item Name="sbom" Type="Folder">
+			<Item Name="bom.json" Type="Document" URL="../../sbom/bom.json"/>
 			<Item Name="make sbom.bat" Type="Document" URL="../../sbom/make sbom.bat"/>
-			<Item Name="Pre-Build Custom Action.vi" Type="VI" URL="../Pre-Build Custom Action.vi"/>
 		</Item>
 		<Item Name="vipm" Type="Folder">
+			<Item Name="Pre-Build Custom Action.vi" Type="VI" URL="../../vipm/Pre-Build Custom Action.vi"/>
 			<Item Name="Request Power.vipb" Type="Document" URL="../../vipm/Request Power.vipb"/>
 		</Item>
 		<Item Name="Request Power.lvlib" Type="Library" URL="../libraries/Request Power.lvlib"/>
